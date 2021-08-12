@@ -1,4 +1,7 @@
 extends:
   - metalab
+env:
+  commonjs: true
 rules:
   metalab/filenames/match-exported: 0
+  metalab/import/no-commonjs: 0
